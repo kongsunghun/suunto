@@ -1,0 +1,73 @@
+.header {width: 100%; height: 131px; text-align: center;}
+.header_top {width: 100%; height: 40px;}
+.header_top_wrap {width: 1150px; height: 40px;display: inline-block;}
+.gnb {font-size: 11px; color: #222228; float: right;}
+.gnb li { height: 40px; display: inline-block; line-height: 40px;}
+.gnb li::before {padding:0 10px 0 10px; content: "|";}
+.gnb li:nth-child(1)::before {content: "";}
+
+.header_bottom {width: 100%; height: 101px; text-align: center;}
+.header_bottom_wrap {width: 1140px; height: 91px; display: inline-block; margin: 5px 0 5px 0;}
+.header_bottom_logo {width: 112px; height: 67px; padding: 24px 0 0 0; margin: 0 88px 0 0;display: inline-block; float: left;}
+
+.header_bottom_contents {width: 390px; height: 91px; font-size: 16px; display: inline-block; float: left;}
+.nav_bar li {width: 100px; height: 54px; padding: 37px 0 0 0; margin: 0 15px 0 15px; float: left; position: relative; color: #222228;}
+.nav_bar1 {display: none; width: 900px; height: 190px; float: left;  background-color: lawngreen; padding: 23px 0 0 0;}
+.nav_bar2 {display: none;}
+.nav_bar3 {display: none;}
+.nav_bar1 li {float: left;}
+
+.main {width: 100%; height: 2123px; text-align: center;}
+.main_banner {width: 100%; height: 800px; display: inline-block;}
+
+.form {width: 179px; height: 34px; margin: 28px 0 28px 0; float: right; display: inline-block;}
+form {width: 179px; height: 34px; float: right; margin: 28px 0 28px 0; display: inline-block;}
+form input {width: 139px; height: 33px; padding: 0 30px 0 10px;}
+form button {width:24px; height: 24px; float: right; display: inline-block;}
+
+.nav_bar li:nth-child(1):hover .nav_bar1 {display: block;}
+.nav_bar li:nth-child(2):hover .nav_bar2 {display: block;}
+.nav_bar li:nth-child(3):hover .nav_bar3 {display: block;}
+
+.container {text-align: center; padding: 50px 0 100px 0;}
+.gallery {width: 1140px; height: 519px; display: inline-block; padding: 50px 0 50px 0;}
+.gallery_name {width: 1140; height: 45; font-size: 30px; color: #333333; font-weight: bold;}
+.video {float: left; margin: 0 10px 0 0;}
+.video h2 {font-size: 26px; margin: 22px 0 0 0;color: #333333;}
+.video a {font-size: 18px; margin: 10px 0 0 0; border-bottom: solid 1px black; color: #333333;}
+.video a:visited{color: #333333;}
+.pic {float: left; margin: 0 0 0 10px;}
+.pic h2 {font-size: 26px; margin: 22px 0 0 0;color: #333333;}
+.pic a {font-size: 18px; margin: 10px 0 0 0; color: #333333; border-bottom: solid 1px black;}
+.pic a:visited{color: #333333;}
+
+.card {width: 100%; height: 655px; text-align: center; background-color: #eeeeee;}
+.card_wrap {width: 1140px; height: 655px; display: inline-block;}
+.card_title {width: 1140px; height: 45px; padding: 60px 0 0 0; font-size: 30px; color: #333333; font-weight: bold;}
+.card_contents {width: 1140px; height: 417px; margin: 50px 0 0 0; }
+.card_1 {width: 268px; height: 355px; padding: 30px 0 30px 0; display: inline-block; border: 1px solid #eeeeee; background-color: white;}
+.card_1:nth-child(n+2) {margin: 0 0 0 15px;}
+.card_2 {width: 268px; height: 240px; margin: 0 0 15px 0;}
+.card_1 p {font-size: 16px; color: #333333; font-weight: bold;}
+.card_1 a {font-size: 14px;}
+.card_3 {width: 108px; height: 38px; border: 1px solid #999999; display: inline-block; margin: 12px 0 0 0; background-color: white;}
+
+.footer {width: 100%; height: 450px; background-color: #212121;text-align: center; }
+#footer_top {width: 1140px; height: 208px; padding: 50px 0 50px 0; background-color: #212121; display: inline-block; text-align: left;}
+#footer_top ul {float: left;}
+#footer_top ul li {width: 228px; height: 19px;}
+
+
+
+
+
+
+.footer_company_link {padding: 25px 0 0 0; font-size: 14px; width: 1140px; height: 21px; }
+a {text-decoration: none; color: #d5d5d5;}
+a:visited {color: #d5d5d5;}
+.footer_company_link span:nth-child(1) {padding: 0 10px 0 0;}
+.footer_company_link span:nth-child(n+2) {padding: 0 10px 0 10px; border-left: solid 1px #d5d5d5;}
+#footer_company p span {padding: 0 14px 0 0; font-size: 12px;}
+#footer_bottom {width: 100%; height: 156px; padding: 30px 0 0 0; background-color: #313131; text-align: center;}
+.footer_bottom_layout {display: inline-block; text-align: left; width: 1140px; height: 106px;}
+.footer_company_btns
